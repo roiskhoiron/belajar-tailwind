@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+
+/* Kode CSS kamu */
+html {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.font-mulish {
+    font-family: 'Mulish',sans-serif;
+}
+@tailwind utilities;
