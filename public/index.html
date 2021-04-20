@@ -2,101 +2,109 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Belajar Tailwind CSS</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Belajar Tailwind CSS</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
 </head>
 
 <body class="min-h-screen">
-    <header class="py-7 my-0.5 px-24 max-w-screen-xl mx-auto">
-        <nav class="grid grid-cols-12 grid-flow-col gap-8 items-center">
-            <img src="/public/assets/icons/logo.png" alt="logo" class="col-span-3" />
-            <ul class="mx-2 col-span-4 col-start-5 flex justify-between text-black">
-                <li class="cursor-pointer pb-3 border-b-2 border-darksblue">Home</li>
-                <li class="cursor-pointer pb-3 border-b-2 border-transparent hover:border-darksblue">
-                    Features
-                </li>
-                <li class="cursor-pointer pb-3 border-b-2 border-transparent hover:border-darksblue">
-                    Pricing
-                </li>
-                <li class="cursor-pointer pb-3 border-b-2 border-transparent hover:border-darksblue">
-                    Blog
-                </li>
-            </ul>
-            <div class="col-span-3 col-start-10 flex">
-                <button class="bg-orange rounded-lg text-center text-white ml-8 py-5 flex-grow hover:text-gray-light">
-                    Get Started
-                </button>
-            </div>
-        </nav>
-        <div class="grid grid-flow-col grid-cols-12 gap-12 mb-12 mt-24 py-1">
-            <div class="flex flex-col py-20 my-3 col-span-5">
-                <h1 class="font-bold text-7xl leading-none">
-                    Grow your subcription business
-                </h1>
-                <p class="text-xl text-gray font-mulish my-8">
-                    Outcome-centered products that reduce churn, optimize pricing, and
-                    grow your subscription business end-to-end.
-                </p>
-                <div class="flex">
-                    <button class="bg-darksblue text-white rounded-xl py-5 px-14 hover:text-gray-light">Get Started</button>
-                    <button class="ml-10">
-                        <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M59.5 30C59.5 46.2924 46.2924 59.5 30 59.5C13.7076 59.5 0.5 46.2924 0.5 30C0.5 13.7076 13.7076 0.5 30 0.5C46.2924 0.5 59.5 13.7076 59.5 30Z"
-                                fill="white" stroke="#E7E7E7" />
-                            <path d="M30 18.75V41.25" stroke="#19191B" stroke-width="1.5" stroke-linecap="round"
-                                stroke-linejoin="round" />
-                            <path d="M19.5 30.75L30 41.25L40.5 30.75" stroke="#19191B" stroke-width="1.5"
-                                stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </button>
-                </div>
-            </div>
-            <div class="relative col-span-7 col-start-7 -mr-16">
-                <div class="absolute">
-                    <img src="/public/assets/icons/hero-3d.png" alt="Hero PNG" class="w-full" />
-                </div>
-            </div>
+  <header class="py-7 my-0.5 px-24 max-w-screen-xl mx-auto">
+    <nav class="grid grid-cols-12 grid-flow-col gap-8 items-center">
+      <img src="/public/assets/icons/logo.png" alt="logo" class="col-span-3" />
+      <ul class="mx-2 col-span-4 col-start-5 flex justify-between text-black">
+        <li class="cursor-pointer pb-3 border-b-2 border-darksblue">Home</li>
+        <li class="cursor-pointer pb-3 border-b-2 border-transparent hover:border-darksblue">
+          Features
+        </li>
+        <li class="cursor-pointer pb-3 border-b-2 border-transparent hover:border-darksblue">
+          Pricing
+        </li>
+        <li class="cursor-pointer pb-3 border-b-2 border-transparent hover:border-darksblue">
+          Blog
+        </li>
+      </ul>
+      <div class="col-span-3 col-start-10 flex">
+        <button class="bg-orange rounded-lg text-center text-white ml-8 py-5 flex-grow hover:text-gray-light">
+          Get Started
+        </button>
+      </div>
+    </nav>
+    <div class="grid grid-flow-col grid-cols-12 gap-12 mb-12 mt-24 py-1">
+      <div class="flex flex-col py-20 my-3 col-span-5">
+        <h1 class="font-bold text-7xl leading-none">
+          Grow your subcription business
+        </h1>
+        <p class="text-xl text-gray font-mulish my-8">
+          Outcome-centered products that reduce churn, optimize pricing, and
+          grow your subscription business end-to-end.
+        </p>
+        <div class="flex">
+          <button class="bg-darksblue text-white rounded-xl py-5 px-14 hover:text-gray-light">
+            Get Started
+          </button>
+          <button class="ml-10">
+            <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M59.5 30C59.5 46.2924 46.2924 59.5 30 59.5C13.7076 59.5 0.5 46.2924 0.5 30C0.5 13.7076 13.7076 0.5 30 0.5C46.2924 0.5 59.5 13.7076 59.5 30Z"
+                fill="white" stroke="#E7E7E7" />
+              <path d="M30 18.75V41.25" stroke="#19191B" stroke-width="1.5" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path d="M19.5 30.75L30 41.25L40.5 30.75" stroke="#19191B" stroke-width="1.5" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </button>
         </div>
-    </header>
-    <main class="my-5 px-24 max-w-screen-xl mx-auto">
-        <section id="client-logo" class="flex justify-between items-center mb-24">
-            <img src="/public/assets/icons/logo-0.svg" alt="Logo 1">
-            <img src="/public/assets/icons/logo-1.svg" alt="Logo 2">
-            <img src="/public/assets/icons/logo-2.svg" alt="Logo 3">
-            <img src="/public/assets/icons/logo-3.svg" alt="Logo 4">
-            <img src="/public/assets/icons/logo-4.svg" alt="Logo 5">
-        </section>
+      </div>
+      <div class="relative col-span-7 col-start-7 -mr-16">
+        <div class="absolute">
+          <img src="/public/assets/icons/hero-3d.png" alt="Hero PNG" class="w-full" />
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="my-5 px-24 max-w-screen-xl mx-auto">
+    <section id="client-logo" class="flex justify-between items-center mb-24">
+      <img src="/public/assets/icons/logo-0.svg" alt="Logo 1" />
+      <img src="/public/assets/icons/logo-1.svg" alt="Logo 2" />
+      <img src="/public/assets/icons/logo-2.svg" alt="Logo 3" />
+      <img src="/public/assets/icons/logo-3.svg" alt="Logo 4" />
+      <img src="/public/assets/icons/logo-4.svg" alt="Logo 5" />
+    </section>
 
-        <section id="features" class="my-24 max-w-screen-xl mx-auto grid grid-cols-12 gap-12 items-center">
-            <div class="col-span-5">
-                <img src="/public/assets/icons/hero-3d-feature-1.png" alt="Feature 1">
-            </div>
-            <div class="col-span-6 col-start-7">
-                <h1 class="font-bold text-5xl">Subscription index</h1>
-                <p class="text-gray text-xl mr-12 my-5 font-mulish">A daily dataset to keep you up to date on subscription market trends and what's happening in your vertical.</p>
-                <a href="#" class="text-darksblue cursor-pointer">Learn more</a>
-            </div>
-        </section>
+    <section id="features" class="my-24 max-w-screen-xl mx-auto grid grid-cols-12 gap-12 items-center">
+      <div class="col-span-5">
+        <img src="/public/assets/icons/hero-3d-feature-1.png" alt="Feature 1" />
+      </div>
+      <div class="col-span-6 col-start-7">
+        <h1 class="font-bold text-5xl">Subscription index</h1>
+        <p class="text-gray text-xl mr-12 my-5 font-mulish">
+          A daily dataset to keep you up to date on subscription market trends
+          and what's happening in your vertical.
+        </p>
+        <a href="#" class="text-darksblue cursor-pointer">Learn more</a>
+      </div>
+    </section>
 
-        <section id="features" class="my-24 max-w-screen-xl mx-auto grid grid-cols-12 gap-12 items-center">
-            <div class="col-span-6 ">
-                <h1 class="font-bold text-5xl">In-depth metrics</h1>
-                <p class="text-gray text-xl mr-12 my-5 font-mulish">Accurate, real-time reporting at your fingertips. Getting data has never been easier.</p>
-                <a href="#" class="text-darksblue cursor-pointer">Learn more</a>
-            </div>
-            <div class="col-span-5 col-start-8">
-                <img src="/public/assets/icons/hero-3d-feature-2.png" alt="Feature 1">
-            </div>
-        </section>
-    </main>
+    <section id="features" class="my-24 max-w-screen-xl mx-auto grid grid-cols-12 gap-12 items-center">
+      <div class="col-span-6">
+        <h1 class="font-bold text-5xl">In-depth metrics</h1>
+        <p class="text-gray text-xl mr-12 my-5 font-mulish">
+          Accurate, real-time reporting at your fingertips. Getting data has
+          never been easier.
+        </p>
+        <a href="#" class="text-darksblue cursor-pointer">Learn more</a>
+      </div>
+      <div class="col-span-5 col-start-8">
+        <img src="/public/assets/icons/hero-3d-feature-2.png" alt="Feature 1" />
+      </div>
+    </section>
+  </main>
 </body>
 
 </html>
